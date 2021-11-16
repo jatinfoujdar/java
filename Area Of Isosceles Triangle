@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String args[])
+    {
+    Scanner input=new Scanner(System.in);
+    System.out.println("enter the base and height");
+    double b=input.nextDouble();
+    double h=input.nextDouble();
+    double area=(b*h/2);
+    System.out.println("enter the area of isosceles:" +area);
+    
+}}
